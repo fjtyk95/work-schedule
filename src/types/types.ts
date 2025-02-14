@@ -1,8 +1,15 @@
-export type WorkType = '出社' | '在宅' | '午前休' | '午後休' | '休暇';
+export type WorkType = {
+  id: string;
+  name: string;
+  description: string;
+  estimatedHours: number;
+};
 
-export interface WorkSchedule {
-  employeeId: string;
-  startDate: string;
-  endDate: string;
+export type WorkSchedule = {
+  id: string;
   workType: WorkType;
-} 
+  startDate: Date;
+  endDate: Date;
+  status: 'pending' | 'in-progress' | 'completed';
+  assignedTo: string;
+}; 
