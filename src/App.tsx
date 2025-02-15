@@ -4,7 +4,7 @@ import { EmployeeScheduleList } from './components/EmployeeScheduleList';
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="container mx-auto p-4">
         <h1 className="text-2xl font-bold mb-6">勤務スケジュール管理システム</h1>
         <div className="bg-white rounded-lg shadow">
