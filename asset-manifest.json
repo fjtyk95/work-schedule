@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/work-schedule/static/css/main.64e1b00e.css",
+    "main.js": "/work-schedule/static/js/main.b4a09b49.js",
+    "index.html": "/work-schedule/index.html",
+    "main.64e1b00e.css.map": "/work-schedule/static/css/main.64e1b00e.css.map",
+    "main.b4a09b49.js.map": "/work-schedule/static/js/main.b4a09b49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64e1b00e.css",
+    "static/js/main.b4a09b49.js"
+  ]
+}
